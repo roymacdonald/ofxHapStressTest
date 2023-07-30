@@ -1,0 +1,767 @@
+{
+	"archiveVersion": "1",
+	"classes": {},
+	"objectVersion": "54",
+	"objects": {
+		"000270D61857A9C7C7628691": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "TimeRangeSet.cpp",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/src/TimeRangeSet.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"01ACF32DD2BE3FB5BC5DFA8A": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "AudioDecoder.h",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/include/ofxHap/AudioDecoder.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"123746A97018087522D6BDFF": {
+			"children": [
+				"79FD7615976472BC2D2C3851",
+				"BBDADACACB6EAB5BEDA05FDE"
+			],
+			"isa": "PBXGroup",
+			"name": "ofxHapPlayer",
+			"sourceTree": "<group>"
+		},
+		"15EECCAE1A639FE0771146E3": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "hap.h",
+			"path": "../../../addons/ofxHapPlayer/libs/hap/src/hap.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"1700621FD10DE4D4F9697B24": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "AudioThread.cpp",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/src/AudioThread.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"191CD6FA2847E21E0085CBB6": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.entitlements",
+			"path": "of.entitlements",
+			"sourceTree": "<group>"
+		},
+		"191EF70929D778A400F35F26": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "folder",
+			"name": "openFrameworks",
+			"path": "../../../libs/openFrameworks",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"19B789C429E5AB4A0082E9B8": {
+			"buildActionMask": "2147483647",
+			"files": [],
+			"inputFileListPaths": [],
+			"inputPaths": [],
+			"isa": "PBXShellScriptBuildPhase",
+			"outputFileListPaths": [],
+			"outputPaths": [],
+			"runOnlyForDeploymentPostprocessing": "0",
+			"shellPath": "/bin/sh",
+			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
+			"showEnvVarsInLog": "0"
+		},
+		"2302C21FAE47D435CF095990": {
+			"fileRef": "2D623880D84A52CF35CA2160",
+			"isa": "PBXBuildFile"
+		},
+		"238B65DDD4862C9A94A29AB4": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Clock.cpp",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/src/Clock.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"25F76A53846BBC81A84C5519": {
+			"fileRef": "C0C7A497249DBD2F8DE862C9",
+			"isa": "PBXBuildFile"
+		},
+		"2CB998AF03E1DC191394C214": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ErrorReceiving.h",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/include/ofxHap/ErrorReceiving.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"2D623880D84A52CF35CA2160": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "PacketCache.cpp",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/src/PacketCache.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"2EC5155BBB4AFAE8E1B719E7": {
+			"children": [
+				"E190CC61090BCFFC54D69770",
+				"C0C7A497249DBD2F8DE862C9",
+				"5F2DF17E9FEFBA2715A7A317",
+				"1700621FD10DE4D4F9697B24",
+				"238B65DDD4862C9A94A29AB4",
+				"EE008DE736F55C209519A9B1",
+				"97338BB48921889487BDA51E",
+				"2D623880D84A52CF35CA2160",
+				"9A8EC2BF48E2C3C42C379138",
+				"000270D61857A9C7C7628691"
+			],
+			"isa": "PBXGroup",
+			"name": "src",
+			"sourceTree": "<group>"
+		},
+		"2F54A7F907FE7148918F7780": {
+			"children": [
+				"7C5E4E98933A05F194AE813A"
+			],
+			"isa": "PBXGroup",
+			"name": "include",
+			"sourceTree": "<group>"
+		},
+		"31EDD8632EE5643250EF7BBA": {
+			"children": [
+				"C8F6794ACA9E9E23B93E0350",
+				"15EECCAE1A639FE0771146E3"
+			],
+			"isa": "PBXGroup",
+			"name": "src",
+			"sourceTree": "<group>"
+		},
+		"44A7B4A73286DB60EC1938DC": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "PacketCache.h",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/include/ofxHap/PacketCache.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"4774F36141444127CFF18422": {
+			"fileRef": "1700621FD10DE4D4F9697B24",
+			"isa": "PBXBuildFile"
+		},
+		"4B9BF6D1580B334023C9FA9F": {
+			"fileRef": "5F2DF17E9FEFBA2715A7A317",
+			"isa": "PBXBuildFile"
+		},
+		"4D40695920B3379E19F1A11D": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "MovieTime.h",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/include/ofxHap/MovieTime.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"4EC00043E3376C87F0ECA874": {
+			"fileRef": "9A8EC2BF48E2C3C42C379138",
+			"isa": "PBXBuildFile"
+		},
+		"5168D41D3FD219BF54E02804": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Clock.h",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/include/ofxHap/Clock.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"5F2DF17E9FEFBA2715A7A317": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "AudioResampler.cpp",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/src/AudioResampler.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"6BA06186AF1C74A7B5F517D6": {
+			"children": [
+				"2F54A7F907FE7148918F7780",
+				"2EC5155BBB4AFAE8E1B719E7"
+			],
+			"isa": "PBXGroup",
+			"name": "ofxHap",
+			"sourceTree": "<group>"
+		},
+		"6D4C0ECBC21CF195A5BDBE31": {
+			"fileRef": "EE008DE736F55C209519A9B1",
+			"isa": "PBXBuildFile"
+		},
+		"77AC83A7566E052535EFA339": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "AudioResampler.h",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/include/ofxHap/AudioResampler.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"79FD7615976472BC2D2C3851": {
+			"children": [
+				"E09D8B6334004E7315770DB3",
+				"6BA06186AF1C74A7B5F517D6"
+			],
+			"isa": "PBXGroup",
+			"name": "libs",
+			"sourceTree": "<group>"
+		},
+		"7C5E4E98933A05F194AE813A": {
+			"children": [
+				"01ACF32DD2BE3FB5BC5DFA8A",
+				"9FA6754E55758AF846AF0E83",
+				"77AC83A7566E052535EFA339",
+				"AC1ED9E2EADE684C6250AB38",
+				"5168D41D3FD219BF54E02804",
+				"C8ACC5ADB42FB88EC0A6BA43",
+				"C7E31A41D29A71BC7651883D",
+				"2CB998AF03E1DC191394C214",
+				"4D40695920B3379E19F1A11D",
+				"44A7B4A73286DB60EC1938DC",
+				"FAE24647AFB9C4EDBDDA0EE8",
+				"A3CD349FD8C7B388CE841D0D"
+			],
+			"isa": "PBXGroup",
+			"name": "ofxHap",
+			"sourceTree": "<group>"
+		},
+		"8B40DD2B41C58FF6B6907B86": {
+			"fileRef": "238B65DDD4862C9A94A29AB4",
+			"isa": "PBXBuildFile"
+		},
+		"97338BB48921889487BDA51E": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "MovieTime.cpp",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/src/MovieTime.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"9A375B432B98EE95A23FD001": {
+			"fileRef": "E190CC61090BCFFC54D69770",
+			"isa": "PBXBuildFile"
+		},
+		"9A8EC2BF48E2C3C42C379138": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "RingBuffer.cpp",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/src/RingBuffer.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"9DECE28DE972DD39553DD35C": {
+			"fileRef": "B3A8B29F47FD67274D82443D",
+			"isa": "PBXBuildFile"
+		},
+		"9FA6754E55758AF846AF0E83": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "AudioParameters.h",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/include/ofxHap/AudioParameters.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"A3CD349FD8C7B388CE841D0D": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "TimeRangeSet.h",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/include/ofxHap/TimeRangeSet.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"A9816531495AFFBC1BB87CF3": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxHapPlayer.h",
+			"path": "../../../addons/ofxHapPlayer/src/ofxHapPlayer.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"AC1ED9E2EADE684C6250AB38": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "AudioThread.h",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/include/ofxHap/AudioThread.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"AF24098F3EE61E761F184C8F": {
+			"fileRef": "000270D61857A9C7C7628691",
+			"isa": "PBXBuildFile"
+		},
+		"B3A8B29F47FD67274D82443D": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxHapPlayer.cpp",
+			"path": "../../../addons/ofxHapPlayer/src/ofxHapPlayer.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"BB4B014C10F69532006C3DED": {
+			"children": [
+				"123746A97018087522D6BDFF"
+			],
+			"isa": "PBXGroup",
+			"name": "addons",
+			"path": "../../../addons",
+			"sourceTree": "<group>"
+		},
+		"BBDADACACB6EAB5BEDA05FDE": {
+			"children": [
+				"B3A8B29F47FD67274D82443D",
+				"A9816531495AFFBC1BB87CF3"
+			],
+			"isa": "PBXGroup",
+			"name": "src",
+			"sourceTree": "<group>"
+		},
+		"C0C7A497249DBD2F8DE862C9": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "AudioParameters.cpp",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/src/AudioParameters.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"C7E31A41D29A71BC7651883D": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Demuxer.h",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/include/ofxHap/Demuxer.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"C8ACC5ADB42FB88EC0A6BA43": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Common.h",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/include/ofxHap/Common.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"C8F6794ACA9E9E23B93E0350": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "hap.c",
+			"path": "../../../addons/ofxHapPlayer/libs/hap/src/hap.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"D2589C81FE555C37DFA9890C": {
+			"fileRef": "C8F6794ACA9E9E23B93E0350",
+			"isa": "PBXBuildFile"
+		},
+		"E09D8B6334004E7315770DB3": {
+			"children": [
+				"31EDD8632EE5643250EF7BBA"
+			],
+			"isa": "PBXGroup",
+			"name": "hap",
+			"sourceTree": "<group>"
+		},
+		"E190CC61090BCFFC54D69770": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "AudioDecoder.cpp",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/src/AudioDecoder.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E42962A92163ECCD00A6A9E2": {
+			"alwaysOutOfDate": "1",
+			"buildActionMask": "2147483647",
+			"files": [],
+			"inputPaths": [],
+			"isa": "PBXShellScriptBuildPhase",
+			"name": "Run Script — Compile OF",
+			"outputPaths": [],
+			"runOnlyForDeploymentPostprocessing": "0",
+			"shellPath": "/bin/sh",
+			"shellScript": "echo \"💾 Compiling Openframeworks\"\nxcodebuild -project \"$OF_PATH/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj\" -target openFrameworks -configuration \"${CONFIGURATION}\"  CLANG_CXX_LANGUAGE_STANDARD=$CLANG_CXX_LANGUAGE_STANDARD MACOSX_DEPLOYMENT_TARGET=$MACOSX_DEPLOYMENT_TARGET GCC_PREPROCESSOR_DEFINITIONS=$USER_PREPROCESSOR_DEFINITIONS\n",
+			"showEnvVarsInLog": "0"
+		},
+		"E4A5B60F29BAAAE400C2D356": {
+			"buildActionMask": "2147483647",
+			"dstPath": "",
+			"dstSubfolderSpec": "6",
+			"files": [],
+			"isa": "PBXCopyFilesBuildPhase",
+			"runOnlyForDeploymentPostprocessing": "0"
+		},
+		"E4B69B4A0A3A1720003C02F2": {
+			"children": [
+				"191CD6FA2847E21E0085CBB6",
+				"E4B6FCAD0C3E899E008CF71C",
+				"E4EB6923138AFD0F00A09F29",
+				"E4B69E1C0A3A1BDC003C02F2",
+				"191EF70929D778A400F35F26",
+				"BB4B014C10F69532006C3DED",
+				"E4B69B5B0A3A1756003C02F2"
+			],
+			"isa": "PBXGroup",
+			"sourceTree": "<group>"
+		},
+		"E4B69B4C0A3A1720003C02F2": {
+			"attributes": {
+				"LastUpgradeCheck": "0600"
+			},
+			"buildConfigurationList": "E4B69B4D0A3A1720003C02F2",
+			"compatibilityVersion": "Xcode 3.2",
+			"developmentRegion": "en",
+			"hasScannedForEncodings": "0",
+			"isa": "PBXProject",
+			"knownRegions": [
+				"en",
+				"Base"
+			],
+			"mainGroup": "E4B69B4A0A3A1720003C02F2",
+			"productRefGroup": "E4B69B4A0A3A1720003C02F2",
+			"projectDirPath": "",
+			"projectRoot": "",
+			"targets": [
+				"E4B69B5A0A3A1756003C02F2"
+			]
+		},
+		"E4B69B4D0A3A1720003C02F2": {
+			"buildConfigurations": [
+				"E4B69B4E0A3A1720003C02F2",
+				"E4B69B4F0A3A1720003C02F2"
+			],
+			"defaultConfigurationIsVisible": "0",
+			"defaultConfigurationName": "Release",
+			"isa": "XCConfigurationList"
+		},
+		"E4B69B4E0A3A1720003C02F2": {
+			"baseConfigurationReference": "E4EB6923138AFD0F00A09F29",
+			"buildSettings": {
+				"CODE_SIGN_ENTITLEMENTS": "of.entitlements",
+				"COPY_PHASE_STRIP": "NO",
+				"ENABLE_TESTABILITY": "YES",
+				"GCC_OPTIMIZATION_LEVEL": "0",
+				"GCC_WARN_UNUSED_VARIABLE": "NO",
+				"HEADER_SEARCH_PATHS": [
+					"$(OF_CORE_HEADERS)",
+					"src",
+					"src",
+					"../../../addons/ofxHapPlayer/libs",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/include",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx",
+					"../../../addons/ofxHapPlayer/libs/hap",
+					"../../../addons/ofxHapPlayer/libs/hap/src",
+					"../../../addons/ofxHapPlayer/libs/ofxHap",
+					"../../../addons/ofxHapPlayer/libs/ofxHap/include",
+					"../../../addons/ofxHapPlayer/libs/ofxHap/include/ofxHap",
+					"../../../addons/ofxHapPlayer/libs/ofxHap/src",
+					"../../../addons/ofxHapPlayer/libs/snappy",
+					"../../../addons/ofxHapPlayer/libs/snappy/include",
+					"../../../addons/ofxHapPlayer/libs/snappy/lib",
+					"../../../addons/ofxHapPlayer/libs/snappy/lib/osx",
+					"../../../addons/ofxHapPlayer/libs/snappy/license",
+					"../../../addons/ofxHapPlayer/src"
+				],
+				"OTHER_CPLUSPLUSFLAGS": "-D__MACOSX_CORE__"
+			},
+			"isa": "XCBuildConfiguration",
+			"name": "Debug"
+		},
+		"E4B69B4F0A3A1720003C02F2": {
+			"baseConfigurationReference": "E4EB6923138AFD0F00A09F29",
+			"buildSettings": {
+				"CODE_SIGN_ENTITLEMENTS": "of.entitlements",
+				"COPY_PHASE_STRIP": "YES",
+				"GCC_OPTIMIZATION_LEVEL": "3",
+				"GCC_UNROLL_LOOPS": "YES",
+				"HEADER_SEARCH_PATHS": [
+					"$(OF_CORE_HEADERS)",
+					"src",
+					"src",
+					"../../../addons/ofxHapPlayer/libs",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/include",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx",
+					"../../../addons/ofxHapPlayer/libs/hap",
+					"../../../addons/ofxHapPlayer/libs/hap/src",
+					"../../../addons/ofxHapPlayer/libs/ofxHap",
+					"../../../addons/ofxHapPlayer/libs/ofxHap/include",
+					"../../../addons/ofxHapPlayer/libs/ofxHap/include/ofxHap",
+					"../../../addons/ofxHapPlayer/libs/ofxHap/src",
+					"../../../addons/ofxHapPlayer/libs/snappy",
+					"../../../addons/ofxHapPlayer/libs/snappy/include",
+					"../../../addons/ofxHapPlayer/libs/snappy/lib",
+					"../../../addons/ofxHapPlayer/libs/snappy/lib/osx",
+					"../../../addons/ofxHapPlayer/libs/snappy/license",
+					"../../../addons/ofxHapPlayer/src"
+				],
+				"OTHER_CPLUSPLUSFLAGS": "-D__MACOSX_CORE__"
+			},
+			"isa": "XCBuildConfiguration",
+			"name": "Release"
+		},
+		"E4B69B580A3A1756003C02F2": {
+			"buildActionMask": "2147483647",
+			"files": [
+				"E4B69E200A3A1BDC003C02F2",
+				"E4B69E210A3A1BDC003C02F2",
+				"D2589C81FE555C37DFA9890C",
+				"9A375B432B98EE95A23FD001",
+				"25F76A53846BBC81A84C5519",
+				"4B9BF6D1580B334023C9FA9F",
+				"4774F36141444127CFF18422",
+				"8B40DD2B41C58FF6B6907B86",
+				"6D4C0ECBC21CF195A5BDBE31",
+				"FCE78EB42A44ECB3261E18AB",
+				"2302C21FAE47D435CF095990",
+				"4EC00043E3376C87F0ECA874",
+				"AF24098F3EE61E761F184C8F",
+				"9DECE28DE972DD39553DD35C"
+			],
+			"isa": "PBXSourcesBuildPhase",
+			"runOnlyForDeploymentPostprocessing": "0"
+		},
+		"E4B69B590A3A1756003C02F2": {
+			"buildActionMask": "2147483647",
+			"files": [],
+			"isa": "PBXFrameworksBuildPhase",
+			"runOnlyForDeploymentPostprocessing": "0"
+		},
+		"E4B69B5A0A3A1756003C02F2": {
+			"buildConfigurationList": "E4B69B5F0A3A1757003C02F2",
+			"buildPhases": [
+				"E42962A92163ECCD00A6A9E2",
+				"E4B69B580A3A1756003C02F2",
+				"E4B69B590A3A1756003C02F2",
+				"E4C2427710CC5ABF004149E2",
+				"E4A5B60F29BAAAE400C2D356",
+				"19B789C429E5AB4A0082E9B8"
+			],
+			"buildRules": [],
+			"dependencies": [],
+			"isa": "PBXNativeTarget",
+			"name": "HapStressTest",
+			"productName": "myOFApp",
+			"productReference": "E4B69B5B0A3A1756003C02F2",
+			"productType": "com.apple.product-type.application"
+		},
+		"E4B69B5B0A3A1756003C02F2": {
+			"explicitFileType": "wrapper.application",
+			"includeInIndex": "0",
+			"isa": "PBXFileReference",
+			"path": "HapStressTestDebug.app",
+			"sourceTree": "BUILT_PRODUCTS_DIR"
+		},
+		"E4B69B5F0A3A1757003C02F2": {
+			"buildConfigurations": [
+				"E4B69B600A3A1757003C02F2",
+				"E4B69B610A3A1757003C02F2"
+			],
+			"defaultConfigurationIsVisible": "0",
+			"defaultConfigurationName": "Release",
+			"isa": "XCConfigurationList"
+		},
+		"E4B69B600A3A1757003C02F2": {
+			"baseConfigurationReference": "E4EB6923138AFD0F00A09F29",
+			"buildSettings": {
+				"ARCHS": "$(ARCHS_STANDARD)",
+				"COPY_PHASE_STRIP": "NO",
+				"FRAMEWORK_SEARCH_PATHS": "$(inherited)",
+				"GCC_DYNAMIC_NO_PIC": "NO",
+				"HEADER_SEARCH_PATHS": [
+					"$(OF_CORE_HEADERS)",
+					"src",
+					"src",
+					"../../../addons/ofxHapPlayer/libs",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/include",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx",
+					"../../../addons/ofxHapPlayer/libs/hap",
+					"../../../addons/ofxHapPlayer/libs/hap/src",
+					"../../../addons/ofxHapPlayer/libs/ofxHap",
+					"../../../addons/ofxHapPlayer/libs/ofxHap/include",
+					"../../../addons/ofxHapPlayer/libs/ofxHap/include/ofxHap",
+					"../../../addons/ofxHapPlayer/libs/ofxHap/src",
+					"../../../addons/ofxHapPlayer/libs/snappy",
+					"../../../addons/ofxHapPlayer/libs/snappy/include",
+					"../../../addons/ofxHapPlayer/libs/snappy/lib",
+					"../../../addons/ofxHapPlayer/libs/snappy/lib/osx",
+					"../../../addons/ofxHapPlayer/libs/snappy/license",
+					"../../../addons/ofxHapPlayer/src"
+				],
+				"LIBRARY_SEARCH_PATHS": "$(inherited)",
+				"OTHER_LDFLAGS": [
+					"$(OF_CORE_LIBS)",
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(LIB_OF_DEBUG)",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavutil.56.70.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libswresample.3.9.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavformat.58.76.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavformat.58.76.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libswresample.3.9.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavformat.58.76.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavutil.56.70.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavutil.56.70.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavcodec.58.134.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libswresample.3.9.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavcodec.58.134.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavcodec.58.134.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/snappy/lib/osx/libsnappy.1.1.9.dylib",
+					"../../../addons/ofxHapPlayer/libs/snappy/lib/osx/libsnappy.1.1.9.dylib",
+					"../../../addons/ofxHapPlayer/libs/snappy/lib/osx/libsnappy.1.1.9.dylib",
+					"-rpath",
+					"@loader_path/../../../../../../../addons/ofxHapPlayer/libs"
+				]
+			},
+			"isa": "XCBuildConfiguration",
+			"name": "Debug"
+		},
+		"E4B69B610A3A1757003C02F2": {
+			"baseConfigurationReference": "E4EB6923138AFD0F00A09F29",
+			"buildSettings": {
+				"ARCHS": "$(ARCHS_STANDARD)",
+				"COPY_PHASE_STRIP": "YES",
+				"FRAMEWORK_SEARCH_PATHS": "$(inherited)",
+				"HEADER_SEARCH_PATHS": [
+					"$(OF_CORE_HEADERS)",
+					"src",
+					"src",
+					"../../../addons/ofxHapPlayer/libs",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/include",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx",
+					"../../../addons/ofxHapPlayer/libs/hap",
+					"../../../addons/ofxHapPlayer/libs/hap/src",
+					"../../../addons/ofxHapPlayer/libs/ofxHap",
+					"../../../addons/ofxHapPlayer/libs/ofxHap/include",
+					"../../../addons/ofxHapPlayer/libs/ofxHap/include/ofxHap",
+					"../../../addons/ofxHapPlayer/libs/ofxHap/src",
+					"../../../addons/ofxHapPlayer/libs/snappy",
+					"../../../addons/ofxHapPlayer/libs/snappy/include",
+					"../../../addons/ofxHapPlayer/libs/snappy/lib",
+					"../../../addons/ofxHapPlayer/libs/snappy/lib/osx",
+					"../../../addons/ofxHapPlayer/libs/snappy/license",
+					"../../../addons/ofxHapPlayer/src"
+				],
+				"LIBRARY_SEARCH_PATHS": "$(inherited)",
+				"OTHER_LDFLAGS": [
+					"$(OF_CORE_LIBS)",
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(LIB_OF)",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavutil.56.70.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libswresample.3.9.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavformat.58.76.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavformat.58.76.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libswresample.3.9.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavformat.58.76.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavutil.56.70.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavutil.56.70.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavcodec.58.134.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libswresample.3.9.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavcodec.58.134.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/ffmpeg/lib/osx/libavcodec.58.134.100.dylib",
+					"../../../addons/ofxHapPlayer/libs/snappy/lib/osx/libsnappy.1.1.9.dylib",
+					"../../../addons/ofxHapPlayer/libs/snappy/lib/osx/libsnappy.1.1.9.dylib",
+					"../../../addons/ofxHapPlayer/libs/snappy/lib/osx/libsnappy.1.1.9.dylib",
+					"-rpath",
+					"@loader_path/../../../../../../../addons/ofxHapPlayer/libs"
+				],
+				"baseConfigurationReference": "E4EB6923138AFD0F00A09F29"
+			},
+			"isa": "XCBuildConfiguration",
+			"name": "Release"
+		},
+		"E4B69E1C0A3A1BDC003C02F2": {
+			"children": [
+				"E4B69E1D0A3A1BDC003C02F2",
+				"E4B69E1E0A3A1BDC003C02F2",
+				"E4B69E1F0A3A1BDC003C02F2"
+			],
+			"isa": "PBXGroup",
+			"path": "src",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E4B69E1D0A3A1BDC003C02F2": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.cpp.cpp",
+			"name": "main.cpp",
+			"path": "src/main.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E4B69E1E0A3A1BDC003C02F2": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofApp.cpp",
+			"path": "src/ofApp.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E4B69E1F0A3A1BDC003C02F2": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.c.h",
+			"name": "ofApp.h",
+			"path": "src/ofApp.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E4B69E200A3A1BDC003C02F2": {
+			"fileRef": "E4B69E1D0A3A1BDC003C02F2",
+			"isa": "PBXBuildFile"
+		},
+		"E4B69E210A3A1BDC003C02F2": {
+			"fileRef": "E4B69E1E0A3A1BDC003C02F2",
+			"isa": "PBXBuildFile"
+		},
+		"E4B6FCAD0C3E899E008CF71C": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.xml",
+			"path": "openFrameworks-Info.plist",
+			"sourceTree": "<group>"
+		},
+		"E4C2427710CC5ABF004149E2": {
+			"buildActionMask": "2147483647",
+			"dstPath": "",
+			"dstSubfolderSpec": "10",
+			"files": [],
+			"isa": "PBXCopyFilesBuildPhase",
+			"runOnlyForDeploymentPostprocessing": "0"
+		},
+		"E4EB6923138AFD0F00A09F29": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.xcconfig",
+			"path": "Project.xcconfig",
+			"sourceTree": "<group>"
+		},
+		"EE008DE736F55C209519A9B1": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "Demuxer.cpp",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/src/Demuxer.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"FAE24647AFB9C4EDBDDA0EE8": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "RingBuffer.h",
+			"path": "../../../addons/ofxHapPlayer/libs/ofxHap/include/ofxHap/RingBuffer.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"FCE78EB42A44ECB3261E18AB": {
+			"fileRef": "97338BB48921889487BDA51E",
+			"isa": "PBXBuildFile"
+		}
+	},
+	"rootObject": "E4B69B4C0A3A1720003C02F2"
+}
